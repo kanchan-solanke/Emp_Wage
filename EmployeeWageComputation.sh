@@ -1,6 +1,7 @@
 #! /bin/bash -x
 echo "WELCOME to the employee wage computation"
 
-if $[ $RANDOM -eq 0 ]
-then
-echo "
+IS_PRESENT=1
+EMP_RATE_PER_HR=20
+emp_check=(($RANDOM))
+
